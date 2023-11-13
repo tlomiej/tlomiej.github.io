@@ -1,4 +1,23 @@
-<h1>Hello World</h1>"" 
+<html>
 
-Simple React app
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    Simple React app
 https://tlomiej.github.io/geoApp/
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
