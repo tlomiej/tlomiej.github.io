@@ -1,10 +1,52 @@
-<html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Strona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
 
-<a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span></a>
-abc
-  <body>
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
 
-  
-  </body>
+        main {
+            margin-top: 20px;
+        }
 
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Moja Strona</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Witaj na mojej stronie!</h2>
+            <p>To jest przykładowa strona HTML.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Moja Strona. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
 </html>
